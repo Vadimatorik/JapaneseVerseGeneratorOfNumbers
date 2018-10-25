@@ -21,7 +21,24 @@ void printOneElement ( void ) {
 	uint numberIndex;
 	numberIndex	=	gatRandomBetweenValue( 0, 5 );
 	static const uint oneElementNumbers[] = { 2, 3, 4, 5, 9, 10 };
-	outStream << namesOfNumbers[ oneElementNumbers[ numberIndex ] ] << " ";
+	outStream << namesOfNumbers[ oneElementNumbers[ numberIndex ] ];
+}
+
+void printTwoElement ( QString wordCodeString  ) {
+	uint numberIndex;
+
+	if ( wordCodeString == "OO" ) {
+		numberIndex	=	gatRandomBetweenValue( 0, 1 );
+
+		if ( numberIndex == 0 ) {
+			outStream << namesOfNumbers[ 7 ];
+		} else {
+			numberIndex	=	gatRandomBetweenValue( 0, 1 );
+			static const uint owoElementOONumbers[] = { 7 };
+		}
+
+
+	}
 }
 
 /*!
