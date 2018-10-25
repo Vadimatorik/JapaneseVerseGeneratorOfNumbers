@@ -1,8 +1,15 @@
-#include <QCoreApplication>
+#include <QTextStream>
 
-int main(int argc, char *argv[])
-{
-	QCoreApplication a(argc, argv);
+extern QString namesOfNumbers[];
 
-	return a.exec();
+int main ( int argc, char* argv[] ) {
+	/// Добавить метод разбора параметров командной строки.
+	( void )argc;	( void )argv;
+
+	QTextStream stream( stdout );
+	for ( uint i = 0; i < 10; i++ ) {
+		stream << namesOfNumbers[ i ] << " " << endl;
+	}
+
+	return 0;
 }
