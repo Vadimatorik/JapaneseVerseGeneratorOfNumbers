@@ -1,6 +1,9 @@
 #include <QString>
 
-QString namesOfNumbers[ 10 ] = {
+extern QString namesOfNumbers[];
+
+QString namesOfNumbers[] = {
+	QString( "ゼロ" ),
 	QString( "いち" ),
 	QString( "に" ),
 	QString( "さん" ),
