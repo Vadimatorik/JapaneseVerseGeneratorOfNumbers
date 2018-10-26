@@ -16,9 +16,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES	+=							\
 				main.cpp			\
-				vocabulary.cpp
+				vocabulary.cpp \
+    generator.cpp \
+    trach.cpp \
+    numeric_string_generator.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    generator.h \
+    global_data.h \
+    numeric_string_generator.h
