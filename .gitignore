@@ -32,3 +32,4 @@
 *.app
 
 build-JapaneseVerseGeneratorOfNumbers-Desktop_Qt_5_11_1_GCC_64bit-Debug/
+JapaneseVerseGeneratorOfNumbers.pro.*

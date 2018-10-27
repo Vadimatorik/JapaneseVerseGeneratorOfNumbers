@@ -29,7 +29,7 @@ static uint getNumberInTwoChar ( QString word ) {
 		pos = static_cast< uint >( gatRandomBetweenValue( 0, sizeof( characterType_Oo ) / sizeof( characterType_Oo[ 0 ] ) - 1 ) );
 		returnValue = characterType_Oo[ pos ];
 	} else if ( word == "OO" ) {
-		returnValue = characterType_OO[ gatRandomBetweenValue( 0, sizeof( characterType_Oo ) / sizeof( characterType_Oo[ 0 ] ) - 1 )];
+		returnValue = characterType_OO[ gatRandomBetweenValue( 0, sizeof( characterType_OO ) / sizeof( characterType_OO[ 0 ] ) - 1 )];
 	} else if ( word == "oO" ) {
 		pos = static_cast< uint >( gatRandomBetweenValue( 0, sizeof( characterType_O ) / sizeof( characterType_O[ 0 ] ) - 1 ) );
 		returnValue = 10 + characterType_O[ pos ];

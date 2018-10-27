@@ -17,7 +17,6 @@ int main ( int argc, char* argv[] ) {
 
 	initRandomGenerator();
 
-
 	printVector( convertRhymeStringToNumbersArray( "Oo Oo Oo Oo" ) );
 	printVector( convertRhymeStringToNumbersArray( "Oo Ooo oO" ) );
 
