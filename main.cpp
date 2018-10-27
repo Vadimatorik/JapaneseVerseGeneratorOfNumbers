@@ -19,6 +19,8 @@ int main ( int argc, char* argv[] ) {
 
 	printVector( convertRhymeStringToNumbersArray( "Oo Oo Oo Oo" ) );
 	printVector( convertRhymeStringToNumbersArray( "Oo Ooo oO" ) );
+	printVector( convertRhymeStringToNumbersArray( "O oO oO oOo" ) );
+	printVector( convertRhymeStringToNumbersArray( "O oOo o oO" ) );
 
 	return 0;
 }
